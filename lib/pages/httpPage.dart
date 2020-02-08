@@ -7,7 +7,7 @@ class FetchHttpPage extends StatefulWidget{
   FetchHttpPage({Key key}):super(key:key);
 
   @override
-  FetchHttpState createState()=>FetchHttpPage();
+  FetchHttpState createState()=>FetchHttpState();
 }
 
 class FetchHttpState extends State<FetchHttpPage>{
